@@ -108,7 +108,7 @@ See https://www.quicklisp.org/beta/
 #### Add backport repo
 ``` bash
 # Add GPG sig
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
 # Add repo to sources.list
 echo "deb https://cloud.r-project.org//bin/linux/debian buster-cran35/" | sudo tee -a /etc/apt/sources.list
 # Update
