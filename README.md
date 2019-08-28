@@ -76,13 +76,17 @@ ___
 
 ## Markdown Preview ##
 
-* Research
-``pandoc`` needed
 ### First step : installation of TexLve
-```sudo apt install -y texlive-full```
-#### Then : installation of pandoc
-```sudo apt install -y pandoc```
-```sudo apt install -y markdown```
+```bash
+sudo apt install -y texlive-full
+```
+### Then : installation of pandoc
+```bash
+sudo apt install -y pandoc
+sudo apt install -y markdown
+```
+---
+## LaTeX setup
 
 
 ---
