@@ -110,7 +110,7 @@ See https://www.quicklisp.org/beta/
 # Add GPG sig
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 # Add repo to sources.list
-echo "deb https://cloud.r-project.org//bin/linux/ubuntu xenial-cran35/" | sudo tee -a /etc/apt/sources.list
+echo "deb https://cloud.r-project.org//bin/linux/debian buster-cran35/" | sudo tee -a /etc/apt/sources.list
 # Update
 sudo apt update
 ```
