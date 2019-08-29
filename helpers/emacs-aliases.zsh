@@ -1,1 +1,2 @@
-alias em='~/bin/em'
+m() {emacs $1 &}
+
