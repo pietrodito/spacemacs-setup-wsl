@@ -49,7 +49,7 @@ rm $HOME/source-code-pro* -r
 #### Clone this repo to get ``.spacemacs`` and useful aliases ####
 
 ```bash
-git clone https://github.com/pietrodito/spacemacs-setup ~/Comp/spacemacs-setup
+git clone https://github.com/pietrodito/spacemacs-setup-wsl ~/Comp/spacemacs-setup-wsl
 cd ~/Comp/spacemacs-setup
 ./run-installers.sh
 ```
