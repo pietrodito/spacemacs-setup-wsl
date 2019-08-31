@@ -1,4 +1,4 @@
-# Spacemacs on Ubuntu 19 #
+# Spacemacs on Debian WSL #
 
 ## Main part ##
 
