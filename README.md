@@ -4,10 +4,19 @@
 
 ### Building emacs from source ###
 
-#### Clone git emacs repo ####
+#### Cutting edge : Clone git emacs repo ####
 
 ```bash
 git clone --depth 1 git://git.sv.gnu.org/emacs.git ~/Comp/emacs-source
+```
+
+#### Latest release :
+
+```
+mkdir -p ~/Comp/emacs-source
+wget https://ftp.gnu.org/gnu/emacs/emacs-26.3.tar.gz
+tar xzvf emacs-26.3.tar.gz --directory ~/Comp/emacs-source
+rm emacs-26.3.tar.gz
 ```
 
 #### Depedencies ####
